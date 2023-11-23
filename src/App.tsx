@@ -22,6 +22,7 @@ import "./globals.css";
 const App = () => {
   return (
     <main className="flex h-screen">
+      <h1>hell razor</h1>
       <Routes>
         {/* public routes */}
         <Route element={<AuthLayout />}>
